@@ -27,7 +27,6 @@ public class Virus {
 		dfs(1);
 		System.out.println(cnt);
 	}
-
 	static void dfs(int start) {
 		visited[start] = 1;
 
